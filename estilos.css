@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav_bar {
+    font-family: consolas;
+    background: rgb(200, 206, 204);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#nav_bar .botonMenu {
+    line-height: 46px;
+    /*width: -moz-max-content;*/
+    width: 16.4%;
+    position: relative;
+    background: rgb(230, 233, 236);
+}
+
+#nav_bar .botonMenu:hover {
+    background: rgb(2, 86, 241);
+}
+
+#nav_bar ul {
+    /*line-height: 46px;*/
+    list-style: solid;
+    position: scroll;
+}
+
+#nav_bar ul li {
+    display: block;
+    display: inline-block;
+    list-style: solid;
+    line-height: 46px;
+    text-decoration-line: unset;
+    text-align: center;
+    transition: all 300ms;
+    width: 16.4%;
+    border-left-color: black;
+    position: relative;
+}
+
+#nav_bar ul li:hover {
+    background: rgb(2, 86, 241);
+}
+
+#nav_bar a {
+    /*  display: inline-block;*/
+    width: auto;
+    color: rgb(3, 3, 3);
+    /*text-decoration: center;*/
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: outside;
+}
+
+#formRegistro {
+    margin-left: 30px;
+    height: 200px;
+    width: 100px;
+}
+
+.campo {
+    border-color: green;
+    color: antiquewhite;
+}
+
+.boton {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boton:hover {
+    background-color: rgb(2, 86, 241);
+}
+
+#botones {
+    margin-left: 30px;
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+}
+
+.botonTamano {
+    width: 500x;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: solid;
+    border: rgb(2, 86, 241);
+}
+
+#botonColor:hover {
+    background-color: red;
+}
+
+#botonSonido:hover {
+    background-color: blue;
+}
+
+#botonModo:hover {
+    background-color: yellow;
+}
+
+#botonIdioma:hover {
+    background-color: green;
+}

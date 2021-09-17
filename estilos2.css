@@ -1,0 +1,69 @@
+html {
+    background-color: #FFD770;
+}
+
+#nav_bar {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    background-color: #FAA307;
+}
+
+#nav_bar #lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar #lista .opcion {
+    float: left;
+    border-right: 1px solid#FFBA08;
+    width: 16.6%;
+}
+
+#nav_bar #lista .opcion:last-child {
+    border-right: none;
+}
+
+#nav_bar #lista .opcion a {
+    display: block;
+    color: #03071E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav_bar #lista .opcion a:hover {
+    background-color: #DC2F02;
+}
+
+#Registerbutton:active {
+    background-color: #DC2F02;
+    color: #03071E;
+}
+
+#Registerbutton {
+    background-color: #FAA307;
+    border: 2px solid#03071E;
+    color: #03071E;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin: auto auto padding-left: 3px;
+    padding-right: 3px;
+}
+
+#formRegistro {
+    width: 180px;
+    height: auto;
+}
+
+#formRegistro form label input {
+    display: table;
+}
